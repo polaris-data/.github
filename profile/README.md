@@ -4,27 +4,21 @@ Polaris is a market data platform for emerging frontier markets, built for quant
 
 We capture exchange-native data directly from venues such as Hyperliquid and Lighter, exposing normalized datasets (trades, L2 orderbook snapshots, OHLCV candles etc.) alongside raw venue payloads.
 
-## Start here
-
-- Docs: [polaris.supply/docs](https://polaris.supply/docs)
-- CLI: [polaris-data/cli](https://github.com/polaris-data/cli)
-- Python SDK: [polaris-data/polaris-py](https://github.com/polaris-data/polaris-py)
-
 ## Quickstart
 
-Install the CLI:
+Install the [CLI](https://github.com/polaris-data/cli):
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/polaris-data/cli/main/install.sh | bash
 ```
 
-Browse available datasets via TUI:
+Browse and download available datasets via [TUI](https://github.com/polaris-data/cli#why-polaris):
 
 ```bash
 polaris
 ```
 
-Query Polaris from Python:
+Query Polaris from [Python](https://github.com/polaris-data/polaris-py):
 
 ```python
 from polaris_data import PolarisClient
