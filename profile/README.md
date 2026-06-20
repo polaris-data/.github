@@ -9,7 +9,7 @@ We capture exchange-native data directly from venues such as Hyperliquid and Lig
 Install the [CLI](https://github.com/polaris-data/cli):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/polaris-data/cli/main/install.sh | bash
+curl -fsSL https://polaris.supply/install.sh | bash
 ```
 
 Browse and download available datasets via TUI:
