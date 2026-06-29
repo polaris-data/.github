@@ -30,4 +30,4 @@ with PolarisClient() as client:
     print(len(rows))
 ```
 
-See the [docs](https://polaris.supply/docs) for API usage, authentication, and SDK guides, or read [llms.txt](https://polaris.supply/llms.txt) for the compact LLM-facing version.
+See the [docs](https://polaris.supply/docs) to get an API key, learn how to authenticate, and use the SDKs, or read [llms.txt](https://polaris.supply/llms.txt) for the compact LLM-facing version.
